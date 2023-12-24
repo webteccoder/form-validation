@@ -1,5 +1,6 @@
 import { React } from 'react';
 import SignUp from './Components/SignUp';
+import Formik from './Components/Formik';
 import './App.css';
 
 
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       
       <SignUp />
-      <SignUp />
+      <Formik />
     </div>
   );
 }
